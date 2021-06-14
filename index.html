@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crud Autos</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+    <main class="formBox">
+    <div class="container">
+        <div class="title">
+            <h3>
+                Crud Autos 
+            </h3>
+        </div>
+
+        <form action="" id="addCrud" class="boxInFormbox">
+
+            <div class="addCrud">
+
+                <div class="field">
+                    <label for="name">Nombre:</label>
+                    <input type="text" placeholder="Nombre" id="name" />
+                </div>
+
+                <div class="field">
+                    <label for="model">Modelo:</label>
+                    <input type="text" placeholder="Modelo" id="model" />
+                </div>
+
+                <div class="field">
+                    <label for="doors">Puertas:</label>
+                    <input type="text" placeholder="Puertas" id="doors"/>
+                </div>
+
+                <div class="field">
+                    <label for="color">Color:</label>
+                    <input type="text" placeholder="Color" id="color"/>
+                </div>
+
+                <div class="field">
+                    <label for="color">Brand:</label>
+                    <input type="text" placeholder="Brand" id="brand"/>
+                </div>
+            </div>
+
+            <button type="submit" class="submitButton" id="submitButton">Guardar registro</button>
+            <button type="button" class="updateButton" id="updateDutton">Editar registro</button>
+        </form>
+        <div class="crudList" id="crudList">
+
+        </div>
+    </div>      
+</main>
+    <script src="dom.js"></script>
+</body>
+</html>

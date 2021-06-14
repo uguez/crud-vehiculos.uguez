@@ -1,0 +1,141 @@
+
+* {
+    /* outline: 1px solid red; */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .formBox {
+
+  }
+
+  .container {
+    /* outline: 3px solid #8fbb56; */
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    /* display: flex; */
+  }
+  
+  /* TÍTULO DE LA APP */
+  
+  .title {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  /* FORMULARIOS PARA AGREGAR USUARIO */
+
+#addCrud {
+    /* outline: 3px solid #dd9d3d; */
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+    /* display: flex; */
+    /* flex-direction: column; */
+  }
+  
+  .addCrud {
+    /* outline: 3px solid #815bc9; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+  }
+  
+  .field {
+    /* outline: 3px solid #e961c7 */
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    /* padding: .8%; */
+    /* margin: 20%; */
+  }
+  
+  .field label {
+    margin-bottom: 10px;
+    font-weight: lighter;
+  }
+  
+  .field input {
+    /* border: 1px solid #afb5b9; */
+    padding: 10px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+  }
+  
+  .submitButton,
+  .updateButton {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #57be5d;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+  
+  .updateButton {
+    display: none;
+  }
+
+   /* Crud List */
+
+.crudList {
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  
+  .crudItem {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .crudInfo {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .actions {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .actions button {
+    width: 45%;
+    border: none;
+    padding: 10px;
+    color: #fff;
+  }
+  
+  .update {
+    background-color: #ffd400;
+  }
+  
+  .delete {
+    background-color: #ff5400;
+  }
+  
